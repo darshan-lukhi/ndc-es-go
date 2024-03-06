@@ -11,12 +11,6 @@ import (
 //go:embed data/articles.csv
 var csvArticles string
 
-//go:embed data/authors.csv
-var csvAuthors string
-
-//go:embed data/institutions.json
-var jsonInstitutions []byte
-
 func readArticles() ([]Article, error) {
 	r := csv.NewReader(strings.NewReader(csvArticles))
 	results := make([]Article, 0)
