@@ -15,3 +15,16 @@ The reference connector runs on http://localhost:8080:
 ```sh
 curl http://localhost:8080/schema | jq .
 ```
+
+- Technical Design Document
+- Define steps for development 
+- Basic skeleton for connector
+- Write elasticsearch client to support all query
+- Implement ScaScalerler and Object type for Elasticsearch
+- Implement the Collection NDA specification
+- Implement the Simple queries
+- Implement the Complex queries
+- Implement Sorting, pagination, filtering, etc.
+- Implement the Aggregation
+- Add testcases for each functionality
+
